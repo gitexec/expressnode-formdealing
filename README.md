@@ -2,12 +2,19 @@
 #Was created using:
 
 npm init -y
+
 npm install --save express pug
 
 #push with first
+
 echo node_modules > .gitignore
+
 git init
+
 git add .
+
 git commit -m ""
+
 git remote add origin https:[URL]
+
 git push -u origin master
